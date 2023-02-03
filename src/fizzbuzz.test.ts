@@ -18,8 +18,7 @@ describe("FizzBuzz", () => {
     expect(fizz_buzz(30)).toBe("FizzBuzz");
   });
 
-    it("Returns the input if divisible by neither 3 or 5", () => {
-        expect(fizz_buzz(2)).toBe(2)
-
-    })
+  it("Returns the input if divisible by neither 3 or 5", () => {
+    expect(fizz_buzz(2)).toBe(2);
+  });
 });
